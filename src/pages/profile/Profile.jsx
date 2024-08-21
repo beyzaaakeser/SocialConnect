@@ -15,7 +15,11 @@ const Profile = () => {
         <div className="profileRigth">
           <div className="profileRigthTop">
             <div className="profileCover">
-              <img className="profileCoverImg" src="assets/profile/1.jpg" alt="" />
+              <img
+                className="profileCoverImg"
+                src="assets/profile/1.jpg"
+                alt=""
+              />
               <img
                 className="profileUserImg"
                 src="assets/person/6.jpg"
@@ -24,13 +28,13 @@ const Profile = () => {
             </div>
 
             <div className="profileInfo">
-                <h4 className='profileInfoName'>Jhon Dou</h4>
-                <span className='profileInfoDesc'>Hello my friends!</span>
+              <h4 className="profileInfoName">Jhon Dou</h4>
+              <span className="profileInfoDesc">Hello my friends!</span>
             </div>
           </div>
           <div className="profileRigthBottom">
             <Feed />
-            <Rigthbar profile/>
+            <Rigthbar profile />
           </div>
         </div>
       </div>

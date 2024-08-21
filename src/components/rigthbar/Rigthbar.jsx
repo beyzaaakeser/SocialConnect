@@ -79,7 +79,7 @@ const Rigthbar = ({ profile }) => {
   return (
     <div className="rigthbar">
       <div className="rigthbarWrapper">
-        <ProfileRigthbar />
+        {profile ? <ProfileRigthbar /> : <HomeRigthrar/>}
       </div>
     </div>
   );
