@@ -48,6 +48,10 @@
   object-fit: contain;
 }
 
+.postText{
+  margin-left: 10px;
+}
+
 .postBottom {
   display: flex;
   align-items: center;
@@ -75,6 +79,6 @@
     cursor: pointer;
     border-bottom: 1px dashed gray;
     font-size: 14px;
-
+   
 }
 

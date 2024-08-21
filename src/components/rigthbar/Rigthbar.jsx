@@ -1,6 +1,7 @@
 import React from 'react';
 import './rigthbar.css';
-
+import {Users} from "../../dummyData"
+import Online from '../online/Online';
 const Rigthbar = () => {
   return (
     <div className="rigthbar">
@@ -16,19 +17,13 @@ const Rigthbar = () => {
         <h4 className="rigthbarTitle">Online Friends</h4>
 
         <ul className="rigthbarFriendList">
-          <li className="rightbarFriend">
-            <div className="rightbarProfileImgContainer">
-              <img
-                className="rightbarProfileImg"
-                src="assets/person/6.jpg"
-                alt=""
-              />
-
-              <span className='rigthbarOnline'></span>
-            </div>
-
-            <span className='rigthbarUsername'>Jhon Carter</span>
-          </li>
+         {
+          Users.map((u) => (
+              <Online key={u.id} user={u}/>  
+          ))
+         }
+          
+         
         </ul>
       </div>
     </div>
