@@ -39,3 +39,49 @@
     list-style: none;
 }
 
+.rigthbarTitle{
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rigthbarInfo{
+    margin-bottom: 30px;
+}
+
+
+.rigthbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rigthbarInfoValue{
+    font-weight: 300;
+}
+
+
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.rigthbarFollowing{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.rightbarInfoItem{
+    margin-bottom: 10px;
+}
+
+.rigthbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -15,7 +15,7 @@ const Home = () => {
     <div className="homeContainer">
       <Sidebar/>
       <Feed/>
-      <Rigthbar/>
+      <Rigthbar />
     </div>
     
     </>
