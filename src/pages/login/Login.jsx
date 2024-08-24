@@ -1,6 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import './login.css';
 
 const Login = () => {
+
+const navigate = useNavigate()
+
   return (
     <div className="login">
       <div className="loginWrapper">
@@ -22,10 +26,10 @@ const Login = () => {
               placeholder="enter password"
               className="loginInput"
             />
-            <button className="loginButton">Log In</button>
+            <button onClick={()=> navigate("/")} className="loginButton">Log In</button>
             <span className="loginForgot">Forgot Password?</span>
 
-            <button className="loginRegisterButton">Create a New Account</button>
+            <button onClick={()=> navigate("/register")} className="loginRegisterButton">Create a New Account</button>
           </div>
         </div>
       </div>

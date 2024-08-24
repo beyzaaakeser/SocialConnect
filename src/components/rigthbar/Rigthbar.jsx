@@ -51,24 +51,24 @@ const Rigthbar = ({ profile }) => {
           <h4 className='rigthbarTitle'>User friends</h4>
           <div className="rightbarFollowings">
             <div className="rigthbarFollowing">
-              <img src="assets/person/8.jpg" alt="" className="rigthbarFollowingImg" />
-              <span className='rigthbarFollowingName'>Angelina Jolie</span>
+              <img src="assets/person/6.jpg" alt="" className="rigthbarFollowingImg" />
+              <span className='rigthbarFollowingName'>Jhon Dou</span>
             </div>
             <div className="rigthbarFollowing">
               <img src="assets/person/7.jpg" alt="" className="rigthbarFollowingImg" />
-              <span className='rigthbarFollowingName'>Angelina Jolie</span>
+              <span className='rigthbarFollowingName'>Angelina Water</span>
             </div>
             <div className="rigthbarFollowing">
               <img src="assets/person/9.jpg" alt="" className="rigthbarFollowingImg" />
-              <span className='rigthbarFollowingName'>Angelina Jolie</span>
+              <span className='rigthbarFollowingName'>Michail Black</span>
             </div>
             <div className="rigthbarFollowing">
               <img src="assets/person/4.jpg" alt="" className="rigthbarFollowingImg" />
-              <span className='rigthbarFollowingName'>Angelina Jolie</span>
+              <span className='rigthbarFollowingName'>Tiffany Steve</span>
             </div>
             <div className="rigthbarFollowing">
               <img src="assets/person/10.jpg" alt="" className="rigthbarFollowingImg" />
-              <span className='rigthbarFollowingName'>Angelina Jolie</span>
+              <span className='rigthbarFollowingName'>Suzan Left</span>
             </div>
           </div>
         </>

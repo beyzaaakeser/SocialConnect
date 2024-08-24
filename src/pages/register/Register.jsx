@@ -1,6 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import './register.css';
 
 const Register = () => {
+
+const navigate = useNavigate()
+
   return (
     <div className="login">
       <div className="loginWrapper">
@@ -32,8 +36,8 @@ const Register = () => {
               placeholder="password again"
               className="loginInput"
             />
-            <button className="loginButton">Sing Up</button> 
-            <button className="loginRegisterButton">Log into Account</button>
+            <button onClick={()=> navigate("/login")}  className="loginButton">Sing Up</button> 
+            <button onClick={()=> navigate("/login")} className="loginRegisterButton">Log into Account</button>
           </div>
         </div>
       </div>

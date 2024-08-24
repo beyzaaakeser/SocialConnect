@@ -3,12 +3,17 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import { useNavigate } from 'react-router-dom';
 
 const Topbar = () => {
+
+  const navigate = useNavigate()
+
+
   return (
     <div className='topbarContainer'>
         <div className="topbarLeft">
-          <span className='logo'>SocialConnect</span>
+          <span onClick={()=> navigate("/")} className='logo'>SocialConnect</span>
         </div>
         <div className="topbarCenter">
           <div className="searchbar">
@@ -40,7 +45,7 @@ const Topbar = () => {
             </div>
           </div>
 
-          <img src="/assets/person/1.jpg" alt="" className="topbarImg" />
+          <img onClick={()=> navigate("/profile")}  src="/assets/person/8.jpg" alt="" className="topbarImg" />
         </div>
     </div>
   )

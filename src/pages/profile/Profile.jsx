@@ -22,13 +22,13 @@ const Profile = () => {
               />
               <img
                 className="profileUserImg"
-                src="assets/person/6.jpg"
+                src="assets/person/8.jpg"
                 alt=""
               />
             </div>
 
             <div className="profileInfo">
-              <h4 className="profileInfoName">Jhon Dou</h4>
+              <h4 className="profileInfoName">Maria Lopez</h4>
               <span className="profileInfoDesc">Hello my friends!</span>
             </div>
           </div>
