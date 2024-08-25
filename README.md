@@ -1,1 +1,1 @@
-# This my React
+# Social media app I created with React
